@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+nav {
+    z-index: 9999;
+    padding-top: 20px;
+    text-align: center;
+}
+/* CSS Document */
+/* Split the screen in half */
+.split {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 150px;
+    bottom: 75px;
+    overflow-x: auto;
+    padding-top: 100px;
+}
+
+
+/* Control the left side */
+.left {
+	left: 0;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+footer {
+    display: block;
+    position: fixed;
+    margin: auto;
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+
+}
+header {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 75px;
+    width: 100%;
+    top: 0;
+	
+}
+
+body {
+	background-image: url("clear_coastline.jpeg"); background-repeat: no-repeat, repeat; background-position: top; background-size: cover;
+ background-color: #cccccc;
+}
